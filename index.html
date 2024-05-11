@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Carousel Template · Bootstrap v5.3</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for this template */
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .carousel {
+            position: relative;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding: 1.25rem;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .featurette-divider {
+            margin: 5rem 0;
+        }
+
+        .featurette-heading {
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -0.05rem;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/gambar11.png" width="150" height="100" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://putrafajar133.github.io/tesvjioj/produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hubungi</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="gambar1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="gambar2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="gambar"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/gambar1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Proses Yang Terjamin</h5>
+                    <p>Banyak faktor yang mempengaruhi kenikmatan Kopi Sumatera, seperti cara petik dan juga proses pasca panen. Kami melakukan semua itu dengan sebaik  baiknya demi mendapatkan hasil yang terbaik untuk anda nikmati.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/gambar2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Cita Rasa Terbaik<br>Dari Sumatera</h5>
+                    <p>Kopi yang nikmat melewati proses yang panjang dan tidak mudah untuk sampai ke tangan anda. Percayakan proses tersebut kepada kami yang akan menghadirkan berbagai jenis kopi dengan cita rasa terbaik dari Sumatera.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/GAMBAR.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>DISANGRAI<br>OLEH AHLINYA</h5>
+                    <p>Kopi terbaik yang disangrai oleh ahlinya akan menghasilkan kopi dengan cita rasa terbaik.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Main Content -->
+    <main class="container marketing mt-5">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><b>Kopi Fine Robusta Sidikalang</b> </h2>
+                <p class="lead">robusta sidikalang memiliki crema dan body yang tebal serta rasa coklat pahit yang kuat dan tingkat keasaman yang rendah, sehingga dapat mengimbangi rasa susu.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="image/gambar7 500x500.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading"><b>Kopi Fine Robusta Mandailing </b></h2>
+                <p class="lead">robusta mandailing memiliki crema dan body yang tebal serta rasa coklat pahit yang kuat dan tingkat keasaman yang rendah, sehingga dapat mengimbangi rasa susu.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="image/gambar8 500x500.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><b> Kopi Susu Blend Arabika Robusta</b> </h2>
+                <p class="lead">Biji Kopi Blend yang sangat cocok untuk Kopi Susu dengan kombinasi yang pas antara biji Kopi Arabika 75% dan biji Kopi Robusta 25%. Dengan racikan yang khas menggunakan biji Kopi Arabika dan Robusta pilihan.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="image/gambar9 500x500.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; Copyright 2024 © andres junika putra. All rights reserved &middot;</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
